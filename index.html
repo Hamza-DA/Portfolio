@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="./stylesheet.css">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="stylesheet" href="ctctest.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;800&amp;display=swap" rel="stylesheet">
+    <title>Hamza Da</title>
+  </head>
+  <body>
+    <nav>
+        <div class="container">
+          <div class="holder">
+            <img src="logosvg.svg" style="width:40px">
+            <div class="back">
+              <ul class="nav-links">
+                <li><a data-tab-target="#home">Home</a></li>
+                <li><a href="#">Who I am</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a data-tab-target="#contact">Contact</a></li>
+              </ul>
+            </div>
+              <div class="burger">
+                <div class="lineup"></div>
+                <div class="lineup"></div>
+              </div>
+          </div>
+        </div>
+      </nav>
+      <div class="container2">
+          <div class="contact" id="contact" data-tab-content>
+            <div class="ccontainer">
+              <div class="cholder">
+                <form id="form" action="/" method="GET">
+                  <div class="box">
+                  <label id="name" for="name">name <span style="color:red">*</span></label>
+                    <input type="name" placeholder="Your name">
+                  </div>
+                  <div class="box">
+                    <label id="email" for="email" >e-mail <span style="color:red">*</span></label>
+                    <input type="email" placeholder="Your e-mail">
+                  </div>
+                  <div class="box">
+                    <label id="password" for="message">Message <span style="color:red">*</span></label>
+                    <textarea name="message" rows="8" cols="70" placeholder="Your message"></textarea>
+                  </div>
+                  <div class="butns">
+                    <button type="submit" onclick="cheker()">Send</button>
+                    <div class="alerts"><svg class="bi bi-exclamation-triangle" width="1em" height="1em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                     <path fill-rule="evenodd" d="M7.938 2.016a.146.146 0 0 0-.054.057L1.027 13.74a.176.176 0 0 0-.002.183c.016.03.037.05.054.06.015.01.034.017.066.017h13.713a.12.12 0 0 0 .066-.017.163.163 0 0 0 .055-.06.176.176 0 0 0-.003-.183L8.12 2.073a.146.146 0 0 0-.054-.057A.13.13 0 0 0 8.002 2a.13.13 0 0 0-.064.016zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+                     <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+                     </svg> Fields cannot be empty!</div>
+
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        <div class="homepage">
+          <div class="d3d" id="home" data-tab-content class="active">
+            <div class="contentm">
+              <div class="text">
+                <h2 class="wd">WEB DEVELOPER</h2>
+                <span class="line"></span>
+                <p>Hi my name is <span> Hamza Dahmani</span>,<br> I am a Front-end developer.<br> My expertise
+                 is in the area of designing <br> and
+                 responsive design.
+                </p>  
+            </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <footer>
+        <div class="container3">
+          <div class="content">
+            <ul>
+              <a href="https://twitter.com/HamzaDh19" target="_blank"><img src="twt.svg"></a>
+              <a href="https://www.instagram.com/hamzadahmani1/" target="_blank"><img src="int.svg"></a>
+              <a href="https://www.facebook.com/hamza.dahmani.180/" target="_blank"><img src="fcb.svg"></a>
+            </ul>
+            <div class="h5">
+              <h5 style="font-weight: 400">&#169; Hamza Da</h5>
+            </div>
+          </div>
+        </div>
+      </footer>
+        <script type="text/javascript" src="vanilla-tilt.js"></script>
+        <script type="text/javascript" src="behaviour.js"></script>
+      <script type="text/javascript">
+      	VanillaTilt.init(document.querySelector(".d3d"), {
+      		max: 7 ,
+      		speed: 600,
+          reverse: true,
+      	});
+      </script>
+   </body>
+</html>

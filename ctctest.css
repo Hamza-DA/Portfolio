@@ -1,0 +1,90 @@
+
+.ccontainer{
+  display: flex;
+  flex-direction: column;
+  padding: 20px 0 0 0;
+}
+.contact{
+  margin: auto;
+  display: none;
+}
+
+.cholder{
+  margin: 0 auto;
+}
+h2{
+  font-size: 30px;
+  margin: 30px;
+  margin-left: 0;
+  margin-top: 0;
+  font-weight: 700;
+}
+input, textarea{
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 19px;
+  padding: 10px;
+  color: black;
+  width: 800px;
+  max-width: 800px;
+  border: none;
+  border-bottom: 2px solid #FD5052;
+  transition: .1s ease-out;
+  font-weight: 800;
+  resize: none;
+  background: #F9F9FB;
+}
+input:focus {
+  padding: 15px;
+}
+textarea:focus {
+  padding: 15px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+label{
+  text-align: left;
+  width: 100%;
+  padding: 0 15px;
+  padding-left: 0;
+}
+button{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background: #FCC15D;
+  color: #262626;
+  border: none;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: .1s ease;
+}
+button:active{
+  transform: scale(0.9);
+}
+.butns{
+  display: flex;
+}
+.alerts{
+  background: #bc4749;
+  border: none;
+  font-weight: 200;
+  letter-spacing: 1px;
+  color: white;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  margin-left: 50px;
+  padding: 0 20px;
+  display: none ;
+}
+.alert-chek{
+  display: block;
+  display: flex;
+  text-align: center;
+}
+svg{
+  margin: 5px;
+}

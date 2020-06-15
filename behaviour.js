@@ -34,3 +34,18 @@ navLinks.forEach(link => {
   })
 });
 
+const name = document.getElementById('name')
+const email = document.getElementById('email')
+const message = document.getElementById('message')
+const form = document.getElementById('form')
+const butn = document.querySelector('.alerts')
+const para = document.getElementById('para')
+
+form.addEventListener('submit', (e) => {
+  if (name.value === '' || name.value == null) {
+    butn.classList.add('alert-chek')
+  }
+  if (name.value > 0) {
+      e.preventDefault()
+  }
+})

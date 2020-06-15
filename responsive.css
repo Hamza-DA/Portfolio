@@ -18,7 +18,7 @@
     height: 100vh;
     z-index: 10;
     transform: translateX(100%);
-    transition: transform .3s ease-in-out;
+    transition: transform .3s cubic-bezier(.65,.76,.32,1.28);
     background-color: #F9F9FB;
   }
   .back-active{
@@ -29,11 +29,16 @@
     cursor: pointer;
     z-index: 10;
   }
+  .lineup, .linedown{
+  }
   .toggle .lineup{
     transform: rotateZ(-45deg) translateY(7px);
+    transition: .3s cubic-bezier(.65,.76,.32,1.28);
   }
   .toggle .linedown{
     transform: rotateZ(45deg) translateY(-7px);
+    transition: .3s cubic-bezier(.65,.76,.32,1.28);
+
   }
   .d3d{
     width: 100%;

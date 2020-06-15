@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: sans-serif;
+  align-items: center;
+  color: #262626;
+  text-align: left;
+}
+body{
+  overflow-y: hidden;
+}
+.butn{
+  width: 20px;
+  background: red;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  cursor: pointer;
+}
+.line1, .line2{
+  width: 25px;
+  height: 3px;
+  background: #262626;
+  margin: 5px;
+  border-radius: 5px;
+}
+.line1{
+  transform: rotate(-45deg) translate(-3px, 3px);
+}
+.line2{
+  transform: rotate(45deg) translate(-3px, -3px);
+}
+.backc{
+  height: 15vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navc{
+  transition: .3s ease-in-out;
+}
+.navc:hover{
+  transform: rotate(90deg);
+}
+.ccontainer{
+  display: flex;
+  flex-direction: column;
+  height: 88vh;
+}
+.form{
+
+}
+h2{
+  font-size: 30px;
+  margin: 30px;
+  margin-left: 0;
+  margin-top: 0;
+  font-weight: 800;
+}
+input, textarea{
+  text-align: left;
+  margin-bottom: 15px;
+  font-size: 19px;
+  padding: 10px;
+  padding-left: 0;
+  color: black;
+  width: 800px;
+  max-width: 800px;
+  border: none;
+  border-bottom: 2px solid #fcc15d;
+  transition: .1s ease-in;
+  font-weight: 800;
+}
+input:focus {
+  padding: 15px;
+  border-bottom: 5px solid #fcc15d;
+
+}
+textarea:focus {
+  padding: 15px;
+}
+.box{
+  display: flex;
+  flex-direction: column;
+}
+h4{
+  text-align: left;
+  width: 100%;
+  padding: 0 15px;
+  padding-left: 0;
+}
+button{
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  background: #fcc15d;
+  color: #262626;
+  border: none;
+  font-weight: 900;
+  letter-spacing: 1px;
+  transition: .1s ease;
+}
+button:active{
+  transform: scale(0.9);
+}
+.form{
+  opacity: 0;
+  transform: translateY(-110%);
+  transition: .3s ease;
+}
+.form-active{
+  opacity: 1;
+  transform: translateY(0%);
+}

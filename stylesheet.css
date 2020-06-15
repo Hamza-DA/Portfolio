@@ -159,6 +159,12 @@ footer{
   padding: 10px 0;
   height: 15vh;
 }
+.social{
+  display: flex;
+}
+.ull{
+  display: inline-flex;
+}
 .container3{
   width: 100%;
   padding: 0 40px;
@@ -179,4 +185,16 @@ footer{
 }
 .active[data-tab-content]{
   display: block;
+  animation: animation1 ease .3s;
+}
+@keyframes animation1{
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
 }

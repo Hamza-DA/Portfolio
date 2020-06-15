@@ -25,7 +25,7 @@ input, textarea{
   font-size: 19px;
   padding: 10px;
   color: black;
-  width: 800px;
+  width: 80%;
   max-width: 800px;
   border: none;
   border-bottom: 2px solid #FD5052;
@@ -33,12 +33,15 @@ input, textarea{
   font-weight: 800;
   resize: none;
   background: #F9F9FB;
+  margin: 10px auto;
 }
 input:focus {
   padding: 15px;
+  border-bottom: 3px solid #FD5052;
 }
 textarea:focus {
   padding: 15px;
+    border-bottom: 3px solid #FD5052;
 }
 .box{
   display: flex;
@@ -46,9 +49,10 @@ textarea:focus {
 }
 label{
   text-align: left;
-  width: 100%;
+  width: 80%;
   padding: 0 15px;
   padding-left: 0;
+  margin: auto;
 }
 button{
   width: 100px;
@@ -66,6 +70,8 @@ button:active{
 }
 .butns{
   display: flex;
+  width: 80%;
+  margin: auto;
 }
 .alerts{
   background: #bc4749;

@@ -41,6 +41,9 @@ ul a{
 ul a:hover{
   background: #FCC15D;
 }
+ul a.activea{
+  background: #FCC15D;
+}
 .nav-links{
   display: flex;
 
@@ -55,6 +58,7 @@ ul a:hover{
   display: flex;
   justify-content: space-between;
   align-items: center;
+
 }
 .text .wd{
   font-size: 60px;
@@ -89,12 +93,15 @@ p{
   cursor: pointer;
 }
 .homepage{
-  display: flex;
-  margin: auto;
+}
+.homepage-ut{
+  transform: scale(0.8);
+  opacity: 0;
 }
 .contentm{
   display: flex;
   height: 100%;
+  width: 100%;
 }
 .d3d:hover{
   background: #F9F9FB;
@@ -168,8 +175,8 @@ footer{
   margin: auto;
 }
 [data-tab-content]{
-  display: block;
+  display: none;
 }
-.active [data-tab-content]{
+.active[data-tab-content]{
   display: block;
 }

@@ -13,7 +13,7 @@ tabs.forEach(tab => {
     tab.classList.add('activea')
     target.classList.add('active')
   })
-}); 
+});
 
 const burger = document.querySelector('.burger')
 const sideNav = document.querySelector('.back')
@@ -45,7 +45,5 @@ form.addEventListener('submit', (e) => {
   if (name.value === '' || name.value == null) {
     butn.classList.add('alert-chek')
   }
-  if (name.value > 0) {
       e.preventDefault()
-  }
 })

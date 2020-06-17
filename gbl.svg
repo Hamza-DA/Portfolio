@@ -1,0 +1,16 @@
+<svg id="gbl" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="26" height="14" viewBox="0 0 26 14">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="20" height="12" transform="translate(0.287 0.019)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="int" transform="translate(0.306 -0.222)" opacity="0">
+    <rect id="back" width="26" height="14" transform="translate(-0.306 0.222)" fill="#fcc15d"/>
+  </g>
+  <g id="gbn" transform="translate(2.713 0.981)" clip-path="url(#clip-path)">
+    <g id="Group_57" data-name="Group 57" transform="translate(-3.812 0)">
+      <path id="Subtraction_14" data-name="Subtraction 14" d="M18.306,12H11.613V8.007L18.3,12ZM8.387,12H1.849L8.387,8.1V12ZM0,11.179H0V8H5.328L0,11.179Zm20-.092h0L14.827,8H20v3.085ZM6.016,4.668H0V1.079L6.014,4.667ZM20,4.667H14.141L20,1.171V4.666Zm-8.387-.416h0V0H8.387V4.158L1.418,0H18.736L11.614,4.25Z" transform="translate(4.099 0.019)" fill="#262626"/>
+      <path id="Union_11" data-name="Union 11" d="M13.041,12.037V7.357H0V5.35H13.041V0h2.006V5.35H27.419V7.357H15.047v4.681Z" transform="translate(0 0)" fill="#262626"/>
+    </g>
+  </g>
+</svg>

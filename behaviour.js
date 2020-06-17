@@ -14,11 +14,11 @@ tabs.forEach(tab => {
     target.classList.add('active')
   })
 });
-
 const burger = document.querySelector('.burger')
 const sideNav = document.querySelector('.back')
 const burgerl = document.querySelectorAll('lineup, linedown')
 const main = document.querySelector('.homepage')
+
 
 burger.addEventListener('click', () => {
   sideNav.classList.toggle('back-active');
@@ -31,7 +31,7 @@ navLinks.forEach(link => {
     sideNav.classList.remove('back-active');
     burger.classList.remove('toggle');
 
-  })
+  },)
 });
 
 const name = document.getElementById('name')

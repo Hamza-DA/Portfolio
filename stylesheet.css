@@ -70,7 +70,7 @@ p{
   width: 80%;
 }
 .container2{
- height: 70vh;
+ height: 80vh;
  display: flex;
  overflow-y: auto;
 }
@@ -160,7 +160,7 @@ footer{
   right: 0;
   z-index: 6;
   padding: 10px 0;
-  height: 15vh;
+  height: 10vh;
 }
 .social{
   display: flex;
@@ -180,24 +180,53 @@ footer{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 15vh;
-  margin: auto;
+  height: 10vh;
+  margin: 0 auto;
+
 }
 [data-tab-content]{
   display: none;
 }
 .active[data-tab-content]{
   display: block;
-  animation: animation1 ease .3s;
+  animation: animation1 ease .5s;
 }
 @keyframes animation1{
   from {
     opacity: 0;
-    transform: scale(0.9);
+    transform: scale(0.90);
   }
 
   to {
     opacity: 1;
     transform: scale(1);
   }
+}
+.pic img{
+  background-size: cover;
+  border-radius: 20px;
+  box-shadow: #E5E5E7 0 0 10px;
+}
+.aholder{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-flow: wrap;
+}
+.brief{
+  background-color: #F9F9FB;
+  height: 350px;
+  border-radius: 20px;
+  box-shadow: #E5E5E7 0 0 10px;
+  display: flex;
+  width: 800px;
+}
+.brief p{
+  margin: auto;
+}
+.pic img{
+  height: 350px;
+}
+.aholder div{
+  margin: 20px;
 }

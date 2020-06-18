@@ -23,7 +23,8 @@ const main = document.querySelector('.homepage')
 burger.addEventListener('click', () => {
   sideNav.classList.toggle('back-active');
   burger.classList.toggle('toggle');
-  main.classList.toggle('homepage-ut')
+  main.classList.toggle('homepage-ut');
+
 });
 const navLinks = document.querySelectorAll('ul li')
 navLinks.forEach(link => {
@@ -47,3 +48,18 @@ form.addEventListener('submit', (e) => {
   }
       e.preventDefault()
 })
+
+//////////////////
+const navSlide = () => {
+  const navlink = document.querySelectorAll('.nav-links li');
+
+  //animation
+  navlink.forEach((link, index) => {
+    if (link.style.animation) {
+      link.style.animation = '';
+    }else {
+      link.style.animation =  `navlinks 0.5s ease forwards ${index / 5 }s`;}
+      
+    })
+}
+navSlide();

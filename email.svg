@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="21" height="12.029" viewBox="0 0 21 12.029">
+  <g id="email" transform="translate(-197 -590.999)">
+    <g id="Group_63" data-name="Group 63" transform="translate(-52 206)">
+      <g id="int" transform="translate(248.955 384.645)">
+        <g id="back" transform="translate(0.045 0.355)" fill="none" stroke="#262626" stroke-linejoin="round" stroke-width="1">
+          <rect width="21" height="12" stroke="none"/>
+          <rect x="0.5" y="0.5" width="20" height="11" fill="none"/>
+        </g>
+      </g>
+    </g>
+    <g id="Group_62" data-name="Group 62">
+      <path id="Intersection_1" data-name="Intersection 1" d="M-1879.5,859.881l10.015-.028h9.648l-9.827,6.1Z" transform="translate(2077 -268.353)" fill="none" stroke="#262626" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Subtraction_15" data-name="Subtraction 15" d="M-1860.293,870.881h0l-19.7-.056,8.191-5.889,1.646,1.016,1.638-1.017,8.23,5.943Z" transform="translate(2077.5 -268.353)" fill="none" stroke="#262626" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

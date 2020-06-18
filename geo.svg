@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="15" viewBox="0 0 22 15">
+  <g id="geo" transform="translate(-213.5 -619)">
+    <g id="Icon_feather-map-pin" data-name="Icon feather-map-pin" transform="translate(217 620.5)">
+      <g id="Rectangle_73" data-name="Rectangle 73" transform="translate(-3 -1.5)" fill="#fff" stroke="#707070" stroke-width="1" opacity="0">
+        <rect width="21" height="15" stroke="none"/>
+        <rect x="0.5" y="0.5" width="20" height="14" fill="none"/>
+      </g>
+      <g id="Group_65" data-name="Group 65" transform="translate(0 0)">
+        <path id="back" d="M0,0H21L19.27,7H1.928Z" transform="translate(18 11.5) rotate(180)" fill="none" stroke="#262626" stroke-linecap="round" stroke-linejoin="round" stroke-width="1" stroke-dasharray="32 0"/>
+        <path id="Path_22" data-name="Path 22" d="M10.756,4.628c0,2.433-3.128,4.518-3.128,4.518S4.5,7.061,4.5,4.628a3.128,3.128,0,1,1,6.256,0Z" fill="#fd5052" stroke="#262626" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+        <path id="Path_23" data-name="Path 23" d="M15.585,11.543A1.043,1.043,0,1,1,14.543,10.5,1.043,1.043,0,0,1,15.585,11.543Z" transform="translate(-6.915 -6.915)" fill="#f9f9fb" stroke="#262626" stroke-linecap="round" stroke-linejoin="round" stroke-width="0.8"/>
+      </g>
+    </g>
+  </g>
+</svg>

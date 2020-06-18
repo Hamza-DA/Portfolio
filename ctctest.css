@@ -1,12 +1,16 @@
 
 .ccontainer{
   display: flex;
-  flex-direction: column;
   padding: 20px 0 0 0;
+  justify-content: space-around;
+
 }
 .contact{
   margin: auto;
   display: none;
+}
+.contact div{
+  margin: 0 20px;
 }
 
 .cholder{
@@ -25,7 +29,6 @@ input, textarea{
   font-size: 19px;
   padding: 10px;
   color: black;
-  width: 80%;
   max-width: 800px;
   border: none;
   border-bottom: 2px solid #FD5052;
@@ -34,23 +37,16 @@ input, textarea{
   resize: none;
   background: #F9F9FB;
   margin: 10px auto;
-}
-input:focus {
-  padding: 15px;
-  border-bottom: 3px solid #FD5052;
-}
-textarea:focus {
-  padding: 15px;
-    border-bottom: 3px solid #FD5052;
+  width: 100%;
 }
 .box{
+  width: 80%;
   display: flex;
   flex-direction: column;
 }
 label{
   text-align: left;
-  width: 80%;
-  padding: 0 15px;
+  width: 100%;
   padding-left: 0;
   margin: auto;
 }

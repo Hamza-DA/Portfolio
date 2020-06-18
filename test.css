@@ -73,6 +73,7 @@ input, textarea{
   border-bottom: 2px solid #fcc15d;
   transition: .1s ease-in;
   font-weight: 800;
+  background-color: red;
 }
 input:focus {
   padding: 15px;

@@ -13,12 +13,12 @@
     <nav>
         <div class="container">
           <div class="holder">
-            <img src="logosvg.svg" style="width:40px">
+            <img src="logosvg.svg" data-tab-target="#home" style="min-width:40px;width:40px; cursor: pointer;">
             <div class="back">
               <ul class="nav-links">
                 <li><a data-tab-target="#home" class="activea">Home</a></li>
                 <li><a data-tab-target="#about">Who I am</a></li>
-                <li><a href="#">Projects</a></li>
+                <li><a data-tab-target="#projects">Projects</a></li>
                 <li><a data-tab-target="#contact">Contact</a></li>
               </ul>
             </div>
@@ -29,9 +29,22 @@
           </div>
         </div>
     </nav>
+
+
       <div class="container2">
-          <div class="contact" data-tab-content id="contact">
-            <div class="ccontainer">
+          <div  data-tab-content id="contact" class="contact">
+            <div class="ccontainer" >
+              <div class="infos">
+                <q style="font-size: 28px;">It’s not what you say <br>
+                  but how you say it!</q>
+                  <div class="demo">
+                    <ul>
+                      <li class="demoli"><img src="email.svg" alt=""> email@gmail.com</li>
+                      <li class="demoli"><img src="dial.svg" alt=""> +212 6666666666</li>
+                      <li class="demoli"><img src="geo.svg" alt=""> Kenitra, MOROCCO</li>
+                    </ul>
+                  </div>
+              </div>
               <div class="cholder">
                 <form id="form" action="/" method="GET">
                   <div class="box">
@@ -60,19 +73,19 @@
             </div>
           </div>
 
-                    <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+           <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
 
 
 
           <div data-tab-content id="about"  style="
           margin: auto;">
             <div class="acontainer">
-              <div class="aholder">
-                <div class="brief">
-                  <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium expedita, eius rem eum quidem sapiente rerum quasi. Dolorem, veniam? adipisicing elit. In obcaecati debitis repudiandae? Similique totam sed quibusdam odit animi illum officia! Numquam, tempore deserunt veniam, iusto beatae in quo quam eaque et officiis ratione nihil corporis nemo facere modi repellat tempora.</p>
-                </div>
-                <div class="pic">
+              <div class="aholder" >
+                 <div class="pic" style="margin: 0 auto;">
                   <img src="pic.png" class="pic">
+                 </div>
+                <div class="brief"> 
+                  <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium expedita, eius rem eum quidem sapiente rerum quasi. Dolorem, veniam? adipisicing elit. In obcaecati debitis repudiandae? Similique totam sed quibusdam odit animi illum officia! Numquam, tempore deserunt veniam, iusto beatae in quo quam eaque et officiis ratione nihil corporis nemo facere modi repellat tempora.</p>
                 </div>
               </div>
             </div>
@@ -84,7 +97,7 @@
        <div style="
         margin: auto;
         animation: animation1 .3s ease;"
-         data-tab-content id="home" id="homep" class="active">
+         data-tab-content id="home" id="homep" >
           <div class="d3d">
             <div class="contentm">
               <div class="text">
@@ -98,6 +111,22 @@
             </div>
           </div>
         </div>
+
+        <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
+          <div data-tab-content id="projects"  style="
+          margin: auto;">
+            <div class="acontainer">
+              <div class="aholder">
+                 <div class="pic">
+                  <img src="pic.png" class="pic">
+                 </div>
+                <div class="brief"> 
+                  <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium expedita, eius rem eum quidem sapiente rerum quasi. Dolorem, veniam? adipisicing elit. In obcaecati debitis repudiandae? Similique totam sed quibusdam odit animi illum officia! Numquam, tempore deserunt veniam, iusto beatae in quo quam eaque et officiis ratione nihil corporis nemo facere modi repellat tempora.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </div>
         
 

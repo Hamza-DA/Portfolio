@@ -23,6 +23,9 @@
     transform: translateX(100%);
     transition: transform .3s ease;
   }
+  ul a{
+    font-size: 23px;
+  }
   .back-active{
     transform: translateX(0);
   }
@@ -57,7 +60,9 @@
     padding: 20px 0 ;
     line-height: 1.7;
   }
-
+  .infos{
+ 
+    }
 }
 @media screen and (max-width: 580px){
   .text .wd{

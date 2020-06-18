@@ -4,11 +4,12 @@
   box-sizing: border-box;
   text-decoration: none;
   color: #262626;
-  font-family: Montserrat;
+  font-family: Montserrat, sans-serif;
   font-weight: bold;
   list-style: none;
   max-height: 100vh;
-  letter-spacing: 1px;;
+  letter-spacing: 1px;
+  user-select: none;
 }
 ::selection{
   background-color: #FCC15D;
@@ -38,7 +39,7 @@ nav{
 }
 ul a{
   cursor: pointer;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 19px;
   transition: .2s ease-out;
 }
@@ -67,6 +68,7 @@ ul a.activea{
 }
 .text .wd{
   font-size: 60px;
+  font-weight: 800;
 }
 p{
   font-size: 22px;
@@ -245,7 +247,4 @@ footer{
    display: flex;
    margin: 30px;
    align-items: center;
- }
- .demoli img:hover{
-   background-color: #FCC15D;
  }

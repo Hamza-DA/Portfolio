@@ -13,9 +13,6 @@
     left: 0px;
   }
   
-  .card:not(:first-child) {
-      margin-left: -50px;
-  }
   @media screen and (max-width: 1070px) {
     .card:not(:first-child) {
         margin-left: -0px;
@@ -25,6 +22,10 @@
         width: 90vw;
     }
 }
+  @media screen and (min-width: 1070px){
+  .card:not(:first-child) {
+    margin-left: -50px;
+  }
   .card:hover {
     transform: translateY(-20px);
     transition: 0.4s ease-out;
@@ -36,6 +37,7 @@
     transition: 0.4s ease-out;
   }
   
+}
   .title {
     color: #262626;
     font-weight: 700;
@@ -43,7 +45,3 @@
     left: 20px;
     top: 15px;
   }  
-.card:hover .stroke {
-    stroke-dashoffset: 100;
-    transition: 0.6s ease-out;
-  }

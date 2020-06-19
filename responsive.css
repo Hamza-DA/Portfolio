@@ -60,9 +60,10 @@
     padding: 20px 0 ;
     line-height: 1.7;
   }
-  .infos{
- 
-    }
+  .containerca{
+    width: 70%;
+  }
+
 }
 @media screen and (max-width: 580px){
   .text .wd{

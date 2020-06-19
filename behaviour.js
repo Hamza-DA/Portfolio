@@ -1,5 +1,6 @@
 const tabs = document.querySelectorAll('[data-tab-target]')
 const tabcontents = document.querySelectorAll('[data-tab-content]')
+const loader = document.querySelectorAll('.circle')
 
 tabs.forEach(tab => {
   tab.addEventListener('click', () => {
@@ -7,11 +8,16 @@ tabs.forEach(tab => {
     tabcontents.forEach(tabcontent => {
       tabcontent.classList.remove('active')
     });
+
     tabs.forEach(tab => {
       tab.classList.remove('activea')
     });
-    tab.classList.add('activea')
-    target.classList.add('active')
+
+    setTimeout(() => {
+      tab.classList.add('activea')
+      target.classList.add('active')
+      }, 300);
+
   })
 });
 const burger = document.querySelector('.burger')

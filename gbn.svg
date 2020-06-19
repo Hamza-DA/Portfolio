@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="22" height="22" viewBox="0 0 22 22">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_71" data-name="Rectangle 71" width="17" height="10" transform="translate(187.111 504)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="gbn" transform="translate(-265 -355)">
+    <g id="int" transform="translate(265 354.848)" opacity="0">
+      <rect id="back" width="22" height="22" transform="translate(0 0.152)" fill="#fcc15d"/>
+    </g>
+    <g id="Group_58" data-name="Group 58" transform="translate(17 -25)">
+      <g id="gbn-2" data-name="gbn" transform="translate(63.889 -118)" clip-path="url(#clip-path)">
+        <g id="Group_57" data-name="Group 57" transform="translate(183.944 504)">
+          <path id="Subtraction_14" data-name="Subtraction 14" d="M15.56,10H9.871V6.672L15.558,10ZM7.129,10H1.571L7.129,6.749V10ZM0,9.316H0V6.667H4.529L0,9.316Zm17-.077h0L12.6,6.667H17V9.238ZM5.113,3.89H0V.9l5.112,2.99ZM17,3.889H12.02L17,.976V3.888ZM9.871,3.542h0V0H7.129V3.465L1.205,0h14.72L9.872,3.542Z" transform="translate(3.167 0)" fill="#262626"/>
+          <path id="Union_11" data-name="Union 11" d="M10.834,10V6.112H0V4.445H10.834V0H12.5V4.445H22.779V6.112H12.5V10Z" transform="translate(0 0)" fill="#262626"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

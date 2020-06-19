@@ -214,7 +214,7 @@ footer{
   border-radius: 20px;
   box-shadow: #E5E5E7 0 0 10px;
 }
-.aholder, .ccontainer{
+.aholder, .ccontainer, .pcontainer, .containerca{
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -236,9 +236,6 @@ footer{
 .pic img{
   width: 300px ;
 }
-.aholder div{
-  margin: 20px;
-}
  .demoli img{
    width: 30px;
    margin: 0 10px;
@@ -248,3 +245,6 @@ footer{
    margin: 30px;
    align-items: center;
  }
+.aholder div{
+  margin: 20px;
+}

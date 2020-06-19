@@ -1,6 +1,6 @@
-<svg id="frl" xmlns="http://www.w3.org/2000/svg" width="26" height="14" viewBox="0 0 26 14">
-  <g id="int" transform="translate(0.417 -0.222)" opacity="0">
-    <rect id="back" width="26" height="14" transform="translate(-0.417 0.222)" fill="#fcc15d"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 22 22">
+  <g id="frl" transform="translate(0 -0.152)">
+    <rect id="back" width="22" height="22" transform="translate(0 0.152)" fill="#fcc15d" opacity="0"/>
+    <path id="fr" d="M-1867.936,860V850H-1863v10Zm-6.032,0V850h4.936v10Zm-6.033,0V850h4.936v10Z" transform="translate(1883 -843.848)" fill="#262626"/>
   </g>
-  <path id="fr" d="M14.193,12V0H20V12ZM7.1,12V0H12.9V12ZM0,12V0H5.806V12Z" transform="translate(3 1)" fill="#262626"/>
 </svg>

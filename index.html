@@ -5,7 +5,9 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="./stylesheet.css">
     <link rel="stylesheet" href="./responsive.css">
-    <link rel="stylesheet" href="ctctest.css">
+    <link rel="stylesheet" href="./ctctest.css">
+    <link rel="stylesheet" href="./loader.css">
+    <link rel="stylesheet" href="./caroussel.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;500;700;800&amp;display=swap" rel="stylesheet">
     <title>Hamza Da</title>
     <link rel="shortcut icon" href="./sht.png"/>
@@ -15,6 +17,10 @@
         <div class="container">
           <div class="holder">
             <img src="logosvg.svg" data-tab-target="#home" style="min-width:40px;width:40px; cursor: pointer;">
+            <div class="loader">
+              <div class="circle"></div>
+              <div class="circle2"></div>
+            </div>      
             <div class="back">
               <ul class="nav-links">
                 <li><a data-tab-target="#home" class="activea">Home</a></li>
@@ -33,15 +39,17 @@
 
 
       <div class="container2">
-          <div  data-tab-content id="contact"  class="contact" >
+
+          <!--CONTACT PAGE-->
+           <div  data-tab-content id="contact"  class="contact" >
             <div class="ccontainer" >
               <div class="infos">
                 <q style="font-size: 28px; font-weight: 800;">It’s not what you say <br>
                   but how you say it!</q>
                   <div class="demo">
                     <ul>
-                      <li class="demoli"><img src="email.svg" ><a href="mailto: test@gmail.com" style="font-size: 16px;">test@gmail.com</a></li>
-                      <li class="demoli"><img src="dial.svg"><a href="tel: +212600000000" style="font-size: 16px;">+212600-000000</a></li>
+                      <li class="demoli"><img src="email.svg" ><a href="mailto: dahmanizizo@gmail" style="font-size: 16px;">dahmanizizo@gmail.com</a></li>
+                      <li class="demoli"><img src="dial.svg"><a href="tel: +212622716039" style="font-size: 16px;">+212622-716039</a></li>
                       <li class="demoli"><img src="geo.svg"> Kenitra, MOROCCO</li>
                     </ul>
                   </div>
@@ -66,19 +74,14 @@
                      <path fill-rule="evenodd" d="M7.938 2.016a.146.146 0 0 0-.054.057L1.027 13.74a.176.176 0 0 0-.002.183c.016.03.037.05.054.06.015.01.034.017.066.017h13.713a.12.12 0 0 0 .066-.017.163.163 0 0 0 .055-.06.176.176 0 0 0-.003-.183L8.12 2.073a.146.146 0 0 0-.054-.057A.13.13 0 0 0 8.002 2a.13.13 0 0 0-.064.016zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
                      <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
                      </svg> Fields cannot be empty!</div>
-
                   </div>
-
                 </form>
               </div>
             </div>
-          </div>
+           </div>
 
-           <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
-
-
-
-          <div data-tab-content id="about"  style="
+           <!--ABOUT PAGE-->
+            <div data-tab-content id="about"  style="
           margin: auto;">
             <div class="acontainer">
               <div class="aholder" >
@@ -90,12 +93,10 @@
                 </div>
               </div>
             </div>
-          </div>
+            </div>
 
-
-
-          <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
-       <div style="
+          <!--MAIN PAGE-->
+           <div style="
         margin: auto;
         animation: animation1 .3s ease;"
          data-tab-content id="home" id="homep" class="active">
@@ -111,36 +112,37 @@
             </div>
             </div>
           </div>
-        </div>
+           </div>
 
-        <!--MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM-->
-          <div data-tab-content id="projects"  style="
+          <!--PROJECTS-->
+           <div data-tab-content id="projects"  style="
           margin: auto;">
-            <div class="acontainer">
+            <div class="pcontainer">
               <div class="aholder">
-                 <div class="pic">
-                  <img src="pic.png" class="pic">
-                 </div>
-                <div class="brief"> 
-                  <p>Lorem ipsum dolor sit amet consectetur, Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium expedita, eius rem eum quidem sapiente rerum quasi. Dolorem, veniam? adipisicing elit. In obcaecati debitis repudiandae? Similique totam sed quibusdam odit animi illum officia! Numquam, tempore deserunt veniam, iusto beatae in quo quam eaque et officiis ratione nihil corporis nemo facere modi repellat tempora.</p>
+
+
+                <div class="containerca">
+                  <div class="card">
+                    <h3 class="title"><img src="JClogo.svg" alt=""></h3>
+                  </div>
+                  <div class="card">
+                    <h3 class="title"><img src="Clogo.svg" alt=""></h3>
+                  </div>
+                  <div class="card">
+                    <h3 class="title">N/A</h3>
+                  </div>
+                  <div class="card">
+                    <h3 class="title">N/A</h3>
+                  </div>
+                  </div>
                 </div>
+
               </div>
             </div>
-          </div>
-
-      </div>
-        
-
-      
-      
-
-
-
-
-
-
-
+            </div>
+            </div>
     </div>
+
       <footer>
         <div class="container3">
           <div class="content">
@@ -149,12 +151,12 @@
               <a href="https://www.instagram.com/hamzadahmani1/" target="_blank"><img src="int.svg" class="social"></a>
               <a href="https://www.facebook.com/hamza.dahmani.180/" target="_blank"><img src="fcb.svg" class="social"></a>
               <div class="launguages" style="display: flex; margin-left: 10px;">
-                <a href="#" ><img src="frl.svg" alt="switch to french" style="height: 12px;"></a>
-                <a href="#" ><img src="gbl.svg" alt="switch to english" style="height: 12px;"></a>
-                </div>
+                <a href="#"  style="display: flex;"><img src="frl.svg" alt="switch to french"></a>
+                <a href="#"  style="display: flex;"><img src="gbl.svg" alt="switch to english" ></a>
+              </div>
             </ul>
             <div class="h5">
-              <h5 style="font-weight: 400; color: #262626;">&#169; Hamza Da</h5>
+              <h5 style="font-weight: 400; color: #262626;">&#169; Hamza Dahmani</h5>
             </div>
           </div>
         </div>
@@ -162,10 +164,13 @@
         <script type="text/javascript" src="./vanilla-tilt.js"></script>
         <script type="text/javascript" src="./behaviour.js"></script>
       <script type="text/javascript">
-      	VanillaTilt.init(document.querySelectorAll(".d3d, .butn, .pic"), {
+      	VanillaTilt.init(document.querySelectorAll(".d3d, .butn, .pic, .card"), {
       		max: 8,
       		speed: 600,
           reverse: true,
+          gyroscope : false,
+          glare: true,
+           "max-glare": 0.3, 
       	});
       </script>
    </body>

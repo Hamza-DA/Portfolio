@@ -1,0 +1,42 @@
+.loader{
+  align-items: center;
+  display: flex;
+  position: relative;
+  justify-content: space-evenly;
+  display: none;
+  }
+.circle{
+  margin: auto;
+  border: 4px solid black;
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  animation: loading .2s ease infinite;
+}
+.loader-active{
+  display: block;
+}
+nav{
+  display: flex;
+  justify-content: space-around;
+}
+@keyframes loading {
+
+  0%{
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+  }
+  50%{
+    opacity: 1;
+  }
+  100%{
+    top: 0px;
+    left: 0px;
+    width: 30px;
+    height: 30px;
+    opacity: 0;
+  }
+}

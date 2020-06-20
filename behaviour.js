@@ -16,7 +16,7 @@ tabs.forEach(tab => {
     setTimeout(() => {
       tab.classList.add('activea')
       target.classList.add('active')
-      }, 300);
+      }, 500);
 
   })
 });

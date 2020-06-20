@@ -192,15 +192,16 @@ footer{
 }
 [data-tab-content]{
   display: none;
+  animation: animation1 ease .5s;
+
 }
 .active[data-tab-content]{
   display: block;
-  animation: animation1 ease .5s;
 }
 @keyframes animation1{
   from {
     opacity: 0;
-    transform: scale(0.90);
+    transform: scale(0.90) rotateX(20deg);
   }
 
   to {
@@ -214,7 +215,7 @@ footer{
   border-radius: 20px;
   box-shadow: #E5E5E7 0 0 10px;
 }
-.aholder, .ccontainer, .pcontainer, .containerca{
+.pholder,.aholder, .ccontainer, .pcontainer, .containerca{
   display: flex;
   flex-flow: wrap;
   flex-direction: row;
@@ -246,5 +247,5 @@ footer{
    align-items: center;
  }
 .aholder div{
-  margin: 20px 0 ;
+  margin: 20px;
 }
